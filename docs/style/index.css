@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.body {
+    position: relative;
+    width: 100%;
+    min-width: 100vh;
+
+}
+
+.back {
+    width: 100%;
+    height: 100vh;
+    background-color: #e9e9e9;
+}
+
+.container {
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translateY(-50%);
+    border-radius: 15px;
+    box-shadow: 10px 15px 15px 5px gray;
+    background-color: white;
+}
+
+.register {
+    width: 600px;
+    align-items: center;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.input-id,
+.input-password {
+    width: 70%;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 2px solid black;
+    box-shadow: 5px 1px 5px 1px gray;
+}
+
+.register h2 {
+    display: block;
+    margin-top: 40px;
+    
+}
+
+.register label {
+    position: absolute;
+    left: 95px;
+    pointer-events: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: .7s;
+}
+
+.input-container {
+    margin-top: 70px;
+}
+
+.input .btn {
+    width: 70%;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 50px;    
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    box-shadow: 3px 4px 10px 1px gray;
+    background-color: #d2ffff;
+    transition: .3s;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+}
+
+.login a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: 0.4s;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
+
+.info {
+    width: 600px;
+    height: 80%;
+    margin: 5% 0;
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.founder {
+    display: flex;
+    margin-left: 5%;
+    width: 90%;
+    height: 10rem;
+    transition: 0.5s;
+}
+
+
+
+.founder .avatar {
+    position: relative;
+    border-radius: 100%;
+}
+
+.founder h3 {
+    position: absolute;
+    margin: 15px 0 0 180px;
+    font-size: 28px;
+}
+
+.founder .fa-map-marker {
+    position: absolute;
+    margin: 60px 0 0 180px;
+    font-size: 20px;
+}
+
+.founder .location {
+    position: absolute;
+    margin: 55px 0 0 200px;
+    font-size: 20px;
+}
+
+.founder .role {
+    position: absolute;
+    margin: 21px 0 0 320px;
+    font-size: 20px;
+}
